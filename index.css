@@ -2,20 +2,20 @@
 
 @font-face {
   font-family: "TTNorms";
-  src: url("./font/TTNorms-Regular.otf");
+  src: url("./assets/fonts/TTNorms-Regular.otf");
 }
 @font-face {
   font-family: "TTNorms Medium";
-  src: url("./font/TTNorms-Medium.otf")
+  src: url("./assets/fonts/TTNorms-Medium.otf")
 }
 @font-face {
   font-family: "TTNorms Light";
-  src: url("./font/TTNorms-Light.otf");
+  src: url("./assets/fonts/TTNorms-Light.otf");
 }
 
 @font-face {
   font-family: "Times Roman Italic";
-  src: url("./font/Times-new-roman-italic.ttf");
+  src: url("./assets/fonts/Times-new-roman-italic.ttf");
 }
 
 /* Normalize Css */
@@ -498,8 +498,6 @@ h6 {
    max-width: 260px;
   }
 }
-
-
 
 @media only screen and (max-width: 992px) {
   .container {
