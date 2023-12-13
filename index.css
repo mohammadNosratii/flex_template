@@ -217,11 +217,11 @@ body {
 }
 
 .container {
-  max-width: 80rem;
+  width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 1rem;
-  padding-left: 1rem;
+  /* padding-right: 16px;
+  padding-left: 16px; */
 }
 
 /* Project Responsive */
@@ -291,8 +291,7 @@ header {
   padding: 7px 10px;
 }
 .works-main {
-  padding-left: 70px;
-  padding-right: 70px;
+  padding: 0px 70px;
 }
 .works-main-title {
   margin-top: 100px;
@@ -342,14 +341,14 @@ header {
   
 }
 .comments-box {
-  width: 300px;
+  width: 25%;
   height: 250px;
   background-color: #fff;
   padding: 10px;
   position: relative;
 }
 .comments-img {
-  width: 280px;
+  width: 90%;
   border-top: 1px solid rgba(125, 125, 125,0.10);
   display: flex;
   align-items: center;
@@ -373,8 +372,8 @@ header {
 }
 .portfolio-main {
   margin-top: 80px;
-  padding-left: 70px;
-  padding-right: 70px;
+  /* padding-left: 70px;
+  padding-right: 70px; */
 }
 .portfolio-main-text {
   text-align: center;
@@ -388,7 +387,6 @@ header {
   flex-wrap: wrap;
 }
 .footer-box {
- 
   width: 100%;
   height: auto;
   padding: 120px 0px;
@@ -403,13 +401,14 @@ header {
 }
 .footer-input-wrapper {
   position: relative;
+  width: 45%;
 }
 .footer-input {
   height: 50px;
   border-radius: 4px;
   border: none;
   outline: none;
-  width: 360px;
+  width: 100%;
 
 }
 ::placeholder {
@@ -438,353 +437,42 @@ h6 {
 
 @media only screen and (max-width: 1200px) {
   .container {
-    max-width: 1200px;
-  }
-  .hader-img {
-    width: 120px;
+    width: 100%;
   }
   .header-img2 {
-    max-width: 400px;
+    width: 50%;
   }
-  .h2-header {
-    font-size:22px;
-  }
-  .header-paragraph {
-    font-size: 11px ;
-  }
-  .button--2 {
-    font-size: 16px;
-  }
-  .menu-items-h4 {
-    font-size: 12px;
-  }
-  h2 {
-    font-size: 18px;
-  }
-  h4 {
-    font-size: 16px;
-  }
-  .works-main-paragraph {
-    font-size: 13px ;
-    width: 200px;
-    
+  .footer-box-text {
+    width: 50%;
   }
   .works-main-img {
-    width: 400px;
-  }
-  .comments-box {
-    max-width:250px ;
-    max-height: 220px ;
-  }
-  .comments-box-paragraph {
-    font-size: 13px;
-  }
-  .comments-main-paragraph {
-    font-size: 13px;
-  }
-  .comments-logo {
-    height: 20px;
-  }
-  .portfolio-main {
-    margin-top: 50px ;
-  }
-  .portfolio-img {
-    width: 240px;
-  }
-  .footer-box {
-    padding:100px 80px  ;
-  }
-  .footer-input {
-   max-width: 260px;
+    width: 50%;
   }
 }
 
 @media only screen and (max-width: 992px) {
   .container {
-    max-width: 720px;
+    width: 100%;
   }
-  .hader-img {
-    width: 100px;
-  }
-  .header-img2 {
-    max-width: 300px;
-  }
-  .contact-us-button {
-    display: none;
-  }
-  .h2-header {
-    font-size:16px;
-  }
-  .header-paragraph {
-    font-size: 9px ;
-    margin-bottom: 15px ;
-  }
-  .button--2 {
-    font-size: 10px;
-  }
-  .menu-items-h4 {
-    font-size: 10px;
-  }
-  h2 {
-    font-size: 13px;
-    
-  }
-  h4 {
-    font-size: 12px;
-  }
-  .works-main-paragraph {
-    font-size: 10px ;
-    width: 150px;
-    
-  }
-  .works-main-img {
-    width: 300px;
-  }
-  .comments-main {
-    padding-top: 40px;
-    padding-bottom: 30px;
+  .footer-box-text {
+    max-width: 100%;
   }
   .comments-box {
-    max-width:180px ;
-    max-height: 150px ;
+    font-size: 14px;
   }
-  .comments-box-paragraph {
-    font-size: 10px;
-  }
-  .comments-main-paragraph {
-    font-size: 9px;
-  }
-  .input-comments {
-    margin-top: 50px;
-  }
-  .comments-main-logo {
-    margin-top: 80px;
-    padding-bottom: 0px;
-  }
-  .main-img {
-    width: 20px;
-  }
-  .comments-logo {
-    height: 13px;
-  }
-  .portfolio-main {
-    margin-top: 60px ;
-  }
-  .portfolio-img {
-    width: 160px;
-  }
-  .portfolio-main-img {
-    margin-top: 40px ;
-    gap: 10px;
-  }
-  .footer-box {
-    margin-top:70px  ;
-    padding: 80px 70px ;
-  }
-  .footer-input {
-   max-width: 170px;
-   max-height: 40px;
-  }
-  .footer-input-button {
-    max-width: 40px;
-  }
-  .footer-text-ending {
-    font-size: 12px;
+  .footer-input-wrapper {
+    
   }
 }
 
 @media only screen and (max-width: 768px) {
   .container {
-    max-width: 540px;
-  }
-  .hader-img {
-    width: 80px;
-  }
-  .header-img2 {
-    max-width: 150px;
-  }
-  .contact-us-button {
-    display: none;
-  }
-  .h2-header {
-    font-size:13px;
-  }
-  .header-paragraph {
-    font-size: 8px;
-    
-  }
-  .button--2 {
-    font-size: 7px;
-  }
-  .menu-items-h4 {
-    font-size: 9px;
-  }
-  h2 {
-    font-size: 10px;
-    
-  }
-  h4 {
-    font-size: 9px;
-  }
-  .works-main-paragraph {
-    font-size: 6px ;
-    width: 90px;
-    
-  }
-  .works-main-img {
-    width: 180px;
-  }
-  .comments-main {
-    padding-top: 40px;
-    padding-bottom: 20px;
-  }
-  .comments-box {
-    max-width:140px ;
-    max-height: 120px ;
-  }
-  .comments-box-paragraph {
-    font-size: 7px;
-  }
-  .comments-main-paragraph {
-    font-size: 7px;
-  }
-  .input-comments {
-    margin-top: 40px;
-  }
-  .comments-main-logo {
-    margin-top: 60px ;
-    padding-bottom: 0px;
-  }
-  .main-img {
-    width: 15px;
-  }
-  .comments-logo {
-    height: 9px;
-  }
-  .portfolio-main {
-    margin-top: 40px ;
-  }
-  .portfolio-img {
-    width: 110px;
-  }
-  .portfolio-main-img {
-    margin-top: 35px ;
-  }
-  .footer-box {
-    margin-top:55px  ;
-    padding: 60px 70px ;
-  }
-  .footer-input {
-   max-width: 120px;
-   max-height: 30px;
-   font-size: 10px;
-  }
-  .footer-input-button {
-    max-width: 30px;
-  }
-  .footer-text-ending {
-    font-size: 10px;
+    width: 100%;
   }
 }
 
 @media only screen and (max-width: 576px) {
   .container {
-    max-width: 100%;
-  }
-  .hader-img {
-    display: none;
-  }
-  .header-img2 {
-    max-width: 80px;
-  }
-  .contact-us-button {
-    display: none;
-  }
-  .h2-header {
-    font-size:6px;
-  }
-  .header-paragraph {
-    font-size: 3px;
-    
-  }
-  .button--2 {
-    display: none;
-  }
-  .menu-items-h4 {
-    font-size: 4px;
-  }
-  h2 {
-    font-size: 6px;
-    
-  }
-  h4 {
-    font-size: 6px;
-  }
-  .works-main-paragraph {
-    font-size: 4px ;
-    width: 60px;
-    
-  }
-  .works-main-img {
-    width: 80px;
-  }
-  .comments-main {
-    padding-top: 20px;
-    padding-bottom: 15px;
-  }
-  .comments-box {
-    max-width:80px ;
-    max-height: 70px ;
-  }
-  .comments-box-paragraph {
-    font-size: 4px;
-  }
-  .comments-main-paragraph {
-    font-size: 3px;
-  }
-  .input-comments {
-    margin-top: 20px;
-  }
-  .comments-main-logo {
-    margin-top: 30px ;
-    padding-bottom: 0px;
-  }
-  .main-img {
-    width: 6px;
-  }
-  .comments-logo {
-    height: 3px;
-  }
-  .portfolio-main {
-    margin-top: 30px ;
-  }
-  .portfolio-img {
-    width: 50px;
-  }
-  .portfolio-main-img {
-    margin-top: 25px ;
-  }
-  .footer-box {
-    margin-top:30px  ;
-    padding: 30px 70px ;
-    
-  }
-  .footer-input {
-   max-width: 60px;
-   max-height: 20px;
-   font-size: 4px;
-  }
-  .footer-input-button {
-    max-width: 15px;
-    max-height: 15px;
-    top: 6px;
-  }
-  #svg-footer {
-    width: 15px;
-    padding-right: 10px;
-    padding-bottom: 6px;
-  }
-  .footer-text-ending {
-    font-size: 6px;
+    width: 100%;
   }
 }
