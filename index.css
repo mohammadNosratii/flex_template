@@ -438,7 +438,7 @@ h6 {
 
 @media only screen and (max-width: 1200px) {
   .container {
-    max-width: 960px;
+    max-width: 1200px;
   }
   .hader-img {
     width: 120px;
