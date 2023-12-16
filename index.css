@@ -247,9 +247,6 @@ header {
 .menu-items-h4 {
   color: #757575;
 }
-.header-img {
-  margin-right: 50px;
-}
 
 .contact-us-button {
   background-color: #1565c0;
@@ -332,6 +329,7 @@ header {
   line-height: 1.6;
 }
 .input-comments {
+  width: 100%;
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -479,11 +477,39 @@ h6 {
   .container {
     width: 100%;
   }
-  .footer-box-text {
-    max-width: 100%;
+  .h2-header {
+    line-height: 1.4;
   }
+  
   .comments-box {
     font-size: 14px;
+  }
+  .menu-header {
+    justify-content: center;
+  }
+  .contact-us-button {
+    display: none;
+  }
+  .button--2-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  .green-button {
+    margin-right: 0px;
+  }
+  .comments-main-logo {
+    display: flex;
+    flex-wrap: wrap;
+    margin:120px 10px ;
+  }
+  .comments-box {
+    width: 30%;
+    font-size: 14px;
+  }
+  .footer-box-text {
+    max-width: 100%;
   }
 }
 
@@ -491,10 +517,89 @@ h6 {
   .container {
     width: 100%;
   }
+  .header-img {
+    width: 25%;
+  }
+  .menu-items {
+    font-size: 10px;
+  }
+  .h2-header {
+    font-size: 15px;
+  }
+  .header-paragraph {
+    font-size: 8px;
+  }
+  .button--2-wrapper {
+    font-size: 10px;
+  }
+  .blue-button {
+    margin-right: 0px;
+    padding: 7px 14px;
+  }
+  .works-main-text {
+    gap: 10px;
+  }
+  .works-main-paragraph {
+    font-size: 10px;
+  }
+  .input-comments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .comments-box {
+    width: 50%;
+    font-size: 16px;
+  }
+  .comments-img {
+    justify-content: center;
+  }
+  .footer-box-text {
+    font-size: 20px;
+  }
 }
 
 @media only screen and (max-width: 576px) {
   .container {
     width: 100%;
+  }
+  .header-img {
+    width: 15%;
+  }
+  .menu-items-h4 {
+    font-size: 5px;
+  }
+  .text-image-header {
+    flex-direction: column;
+  }
+  .button--2-wrapper {
+    justify-content: space-evenly;
+  }
+  .comments-box {
+    width: 70%;
+    font-size: 16px;
+  }
+  .footer-box-text {
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  .footer-box {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer-input-wrapper {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .container {
+    width: 100%;
+  }
+  .header-img {
+    width: 10%;
+  }
+  .menu-items-h4 {
+    font-size: 4px;
   }
 }
