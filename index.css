@@ -483,6 +483,12 @@ h6 {
   .button--2 {
     font-size: 14px;
   }
+  .works-main-text {
+    gap: 10px;
+  }
+  .works-main-paragraph {
+    font-size: 15px;
+  }
   .comments-box {
     font-size: 14px;
   }
@@ -587,7 +593,16 @@ h6 {
     display: none;
   }
   .text-image-header {
-    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+  .header-img2 {
+    width: 70%;
+  }
+  .works-main-img {
+    width: 70%;
+  }
+  .works-main-text {
+    flex-wrap: wrap;
   }
   .button--2-wrapper {
     justify-content: space-evenly;
@@ -610,16 +625,5 @@ h6 {
   }
   .footer-input-wrapper {
     width: 100%;
-  }
-}
-@media only screen and (max-width: 576px) {
-  .container {
-    width: 100%;
-  }
-  .header-img {
-    width: 10%;
-  }
-  .menu-items-h4 {
-    font-size: 4px;
   }
 }
